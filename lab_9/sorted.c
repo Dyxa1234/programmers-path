@@ -29,7 +29,7 @@ void print_array(int size, int array[size]) {
 
 int main() {
 
-    int a[] = {4, 2, 0};
+    int a[] = {2, 0};
     int size = sizeof(a) / sizeof(a[0]);
     
     printf("Исходный массив: ");
