@@ -29,15 +29,16 @@ void print_array(int size, int array[size]) {
 
 int main() {
 
-    int array[N] = {6, -5, 3, 77, 4};
-    // Выводим изначальный массив
-    print_array(N, array);
+    int a[] = {2, 0};
+    int size = sizeof(a) / sizeof(a[0]);
+    
+    printf("Исходный массив: ");
+    print_array(size, a);
 
-    // Сортируем по возрастанию
-    bubble_sort(N, array);
+    bubble_sort(size, a);
 
-    // Вот они все, слева-направо..
-    print_array(N, array);
+    printf("Отсортированный массив: ");
+    print_array(size, a);
 
     return 0;
 }
