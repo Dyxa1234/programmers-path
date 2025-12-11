@@ -1,137 +1,18 @@
-# programmers-path
-![alt text](image.png)
+### :man_technologist: Programming :
 
-Используем git status, чтобы узнать, на какой ветке находимся.
+---
 
-![alt text](image-1.png)
+ЛР по Программированию 1 курс СибГУТИ (2025-2026 гг) <img src="https://media1.tenor.com/m/h-EStaz3aLEAAAAC/money-computer.gif" width="30">
 
-Вывод git log.
+<img src="https://media1.tenor.com/m/h-EStaz3aLEAAAAC/money-computer.gif" width="400">
 
-![alt text](image-2.png)
+### :writing_hand: ЛАБЫ :
 
-Создадим файл sorted.c и выведим статус. Git предупреждает нас о том, что ветка main содержит 1 коммит, который еще не отправлен на удаленный сервер origin, а также что файл sorted.c е отслеживается.
+---
 
-![alt text](image-3.png)
-
-Добавили файл в облость stage.
-
-![alt text](image-4.png)
-
-Закоммитил файл sorted.c и вывел statu
-
-![alt text](image-5.png)
-
-Добавил информацию в файл sorted.c, Git сообщает о том, что изменения еще не добавлены в staging area.
-
-![alt text](image-6.png)
-
-Добавил информацию в stage, на пока что не закоммитил.
-
-![alt text](image-7.png)
-
-Доболнил информацию в файле sorted.c, после чего закоммитил и вывел журнал.
-
-![alt text](image-8.png)
-![alt text](image-9.png)
-
-Перенес файл в область stage, закоммитил и запушил на удаленный реп.
-
-Работа с ветками.
-
-![alt text](image-10.png)
-
-Создал ветку mybranch и проверил на какой ветке нахожусь.
-
-![alt text](image-11.png)
-![alt text](image-12.png)
-![alt text](image-14.png)
-
-После переключения на другую ветку команда git status показывает, в какой ветке мы находимся. Когда мы вернулись в ветку main и использовали команду git log --oneline –graph, в журнале не было коммитов из mybranch.
-
-![alt text](image-15.png)
-
-Наш файл file2.txt пропал.
-
-![alt text](image-16.png)
-
-Оценка 4.
-
-![alt text](image-17.png)
-
-Git giff показывает, что изменилось в файле sorted.c
-
-![alt text](image-18.png)
-
-git diff --staged пустой
-
-![alt text](image-19.png)
-![alt text](image-20.png)
-![alt text](image-21.png)
-![alt text](image-22.png)
-![alt text](image-23.png)
-
-Добавил строку "printf("hello git\n");" в файл sorted.c, но изменения не добавлены в stage, также Git предлагает использовать git restore sorted.c для отмены изменений в рабочей директории.
-
-![alt text](image-24.png)
-![alt text](image-25.png)
-
-После команды git restore sorted.c файл Sort.c выглядит так (т. е. наша строка printf(“hello git\n”) исчезла):
-
-![alt text](image-26.png)
-
-![alt text](image-27.png)
-
-Git status советует нам отправить ветку в удаленный репозиторий.
-
-![alt text](image-28.png)
-
-Часть 2
-
-![alt text](image-29.png)
-![alt text](image-30.png)
-![alt text](image-31.png)
-
-Git status показывает, что мы находимся в ветке feature/uppercase.
-
-![alt text](image-32.png)
-![Я](image-33.png)
-![alt text](image-34.png)
-
-Когда мы перейдем в основную ветку, cat выведет hello, а после объединения веток — HELLO.
-
-![alt text](image-35.png)
-
-Git Показывает, что изменилось в ветке feature/uppercase относительно того момента, когда она отделилась от mybranch, но только для файла greeting.txt.
-
-![alt text](image-36.png)
-![alt text](image-37.png)
-![alt text](image-38.png)
-
-Оценка 5
-
-![alt text](image-39.png)
-![alt text](image-40.png)
-![alt text](image-41.png)
-![alt text](image-42.png)
-
-Из журналы мы можем узнать, что находимся в ветке main на коммите 78b5af3
-main опережает origin/main
-mybranch опережает origin/mybranch
-Ветки main и branch1 расходятся после коммита bcc9bd1
-
-![alt text](image-44.png)
-![alt text](image-45.png)
-![alt text](image-46.png)
-![alt text](image-47.png)
-![alt text](image-48.png)
-
-Починим Merge конфликты для сортировки MergeSort на python.
-
-![alt text](image-49.png)
-![alt text](image-50.png)
-![alt text](image-51.png)
-![alt text](image-52.png)
-![alt text](image-53.png)
-![alt text](image-54.png)
-![alt text](image-55.png)
-![alt text](image-56.png)
+- [Лабораторная работа №4](lab_4)
+- [Лабораторная работа №5](lab_5)
+- [Лабораторная работа №6](lab_6)
+- [Лабораторная работа №7](lab_7)
+- [Лабораторная работа №8](lab_8)
+- [Лабораторная работа №9](lab_9)

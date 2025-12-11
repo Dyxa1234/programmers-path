@@ -1,4 +1,4 @@
-# programmers-path
+# Лабораторная работа №9
 ![alt text](skrin/image.png)
 
 Используем git status, чтобы узнать, на какой ветке находимся.
