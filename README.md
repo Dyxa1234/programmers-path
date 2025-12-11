@@ -2,7 +2,7 @@
 
 ---
 
-ЛР по Программированию 1 курс СибГУТИ (2025-2026 гг) <img src="https://media1.tenor.com/m/h-EStaz3aLEAAAAC/money-computer.gif" width="30">
+ЛР по Программированию 1 курс СибГУТИ (2025-2026 гг) <img src="https://media.tenor.com/ZjlFHIbzDowAAAAM/coding-programming.gif" width="30">
 
 <img src="https://media1.tenor.com/m/h-EStaz3aLEAAAAC/money-computer.gif" width="400">
 
